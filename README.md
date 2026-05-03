@@ -41,21 +41,14 @@ python -m codebasechat chat
 
 ## Usage
 
-### Indexing a repository
-
 ```bash
-python -m codebasechat index /path/to/repo --name my-project
-```
+# 1. Index your repo
+python -m codebasechat index /path/to/repo
 
-### Asking questions
+# 2. Ask anything
+python -m codebasechat query "How does auth work?"
 
-```bash
-python -m codebasechat query "How is the database connection handled?"
-```
-
-### Starting the interactive shell
-
-```bash
+# 3. Or go interactive
 python -m codebasechat shell
 ```
 
