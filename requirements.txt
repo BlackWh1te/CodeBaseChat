@@ -1,0 +1,2 @@
+# CodeBaseChat — pure Python, no external deps for core functionality.
+# Optional: sentence-transformers, openai, chromadb for semantic search.
